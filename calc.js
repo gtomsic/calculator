@@ -20,6 +20,8 @@ reader.question('What would you like to calculate?', function (input) {
     console.log(`Answer: ${num1 - num2}`);
   } else if (mathSymbol === '+') {
     console.log(`Answer: ${num1 + num2}`);
+  } else if (mathSymbol === 'sqrt') {
+    console.log(`Answer: ${Math.sqrt(num1)}`);
   } else {
     console.log("Sorry don't know that operator");
   }
